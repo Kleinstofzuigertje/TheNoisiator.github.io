@@ -293,4 +293,10 @@ Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","click",function(sym,e)
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
+
+//=========================================================
+
+//Edge symbol: 'Preloader'
+(function(symbolName){})("Preloader");
+//Edge symbol end:'Preloader'
 })(jQuery,AdobeEdge,"EDGE-31286401");
