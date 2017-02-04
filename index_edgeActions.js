@@ -1,7 +1,7 @@
 
 (function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
-(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("Neusnik_2").hide();sym.$("NEUSMARTIJN").hide();sym.$("MONDMARTIJN_2").hide();sym.$("MONDNIK_2").hide();sym.$("OOGLMARTIJN_2").hide();sym.$("OOGLNIK_2").hide();sym.$("OOGRMARTIJN_2").hide();sym.$("OOGRNIK").hide();sym.$("MONDNIK").hide();sym.$("MONDTHIJS").hide();sym.$("Neusnik").hide();sym.$("NEUSTHIJS").hide();sym.$("KAPSELTHIJS2").hide();sym.$("KAPSELNIK_2").hide();sym.$("oognik").hide();sym.$("OOGRTHIJS_2").hide();sym.$("OOGRNIK_2").hide();sym.$("OOGLNIK").hide();sym.$("OOGLTHIJS_2").hide();sym.$("OOGRNIK_2").hide();sym.$("KAPSELNIK2").hide();sym.$("kapselthijsframe").show();sym.$("NEUSTHIJS_2").hide();sym.$("NEUSMARTIJN_2").hide();sym.$("MONDTHIJS_2").hide();sym.$("MONDMARTIJN").hide();sym.$("KAPSELTHIJS_2").hide();sym.$("OOGLTHIJS").hide();sym.$("OOGRMARTIJN").hide();sym.$("OOGRTHIJS").hide();sym.$("OOGLMARTIJN").hide();sym.$("neusnik").hide();sym.$("haarnik").hide();sym.$("haarnik").hide();sym.$("Neusmartijn").hide();sym.$("Haarmartijn").hide();sym.$("Mondmartijn").hide();sym.$("Oogmartijn").hide();sym.$("OOGRNIK_2DOOD").hide();sym.$("OOGLNIKDOOD").hide();sym.$("Neusthijs").hide();sym.$("Haarthijs").hide();sym.$("Mondthijs").hide();sym.$("Oogthijs").hide();sym.$("Mondnik").hide();sym.$("OOGLNIK_2DOOD").hide();sym.$("OOGRNIKdood").hide();sym.$("geenhaarmartijn").hide();sym.$("BG").hide();});
+(function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("Neusnik_2").hide();sym.$("NEUSMARTIJN").hide();sym.$("MONDMARTIJN_2").hide();sym.$("MONDNIK_2").hide();sym.$("OOGLMARTIJN_2").hide();sym.$("OOGLNIK_2").hide();sym.$("OOGRMARTIJN_2").hide();sym.$("OOGRNIK").hide();sym.$("MONDNIK").hide();sym.$("MONDTHIJS").hide();sym.$("Neusnik").hide();sym.$("NEUSTHIJS").hide();sym.$("KAPSELTHIJS2").hide();sym.$("KAPSELNIK_2").hide();sym.$("oognik").hide();sym.$("OOGRTHIJS_2").hide();sym.$("OOGRNIK_2").hide();sym.$("OOGLNIK").hide();sym.$("OOGLTHIJS_2").hide();sym.$("OOGRNIK_2").hide();sym.$("KAPSELNIK2").hide();sym.$("kapselthijsframe").show();sym.$("NEUSTHIJS_2").hide();sym.$("NEUSMARTIJN_2").hide();sym.$("MONDTHIJS_2").hide();sym.$("MONDMARTIJN").hide();sym.$("KAPSELTHIJS_2").hide();sym.$("OOGLTHIJS").hide();sym.$("OOGRMARTIJN").hide();sym.$("OOGRTHIJS").hide();sym.$("OOGLMARTIJN").hide();sym.$("neusnik").hide();sym.$("haarnik").hide();sym.$("haarnik").hide();sym.$("Neusmartijn").hide();sym.$("Haarmartijn").hide();sym.$("Mondmartijn").hide();sym.$("Oogmartijn").hide();sym.$("OOGRNIK_2DOOD").hide();sym.$("OOGLNIKDOOD").hide();sym.$("Neusthijs").hide();sym.$("Haarthijs").hide();sym.$("Pauze").hide();sym.$("Mondthijs").hide();sym.$("Oogthijs").hide();sym.$("Mondnik").hide();sym.$("OOGLNIK_2DOOD").hide();sym.$("OOGRNIKdood").hide();sym.$("geenhaarmartijn").hide();sym.$("BG").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_NEUSTHIJS_3}","click",function(sym,e){sym.$("NEUSTHIJS_3").hide();sym.$("Neusnik_2").show();});
 //Edge binding end
@@ -290,6 +290,13 @@ Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","mouseout",function(sym
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","mouseover",function(sym,e){sym.$("oognik").show();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","click",function(sym,e){sym.$("OOGRNIK").hide();sym.$("OOGLTHIJS_2Copy").show();});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_Play}","click",function(sym,e){sym.$("Play").hide();EC.Sound.play("Watwijzullen")
+sym.$("Pauze").show();var audio=sym.$("_03_De_Huilende_Rappers_-_Wat_Wij_Zullen")[0];if(audio.paused){audio.play();}else{audio.pause();}});
+//Edge binding end
+Symbol.bindElementAction(compId,symbolName,"${_Pauze}","click",function(sym,e){sym.$("Pauze").hide();sym.$("Play").show();var audio=sym.$("_03_De_Huilende_Rappers_-_Wat_Wij_Zullen")[0];if(audio.paused){audio.play();}else{audio.pause();}});
+//Edge binding end
+Symbol.bindSymbolAction(compId,symbolName,"creationComplete",function(sym,e){yepnope({load:"http://cdn.edgecommons.org/an/1.0.2/js/min/EdgeCommons.js",complete:function(){EC.debug("ready to go!");var assetsPath="Sounds/";EC.Sound.setup([{src:assetsPath+"Watwijzullen.mp3",id:"Watwijzullen"}],function(){EC.info("Sound setup finished","sounds");});}});});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
