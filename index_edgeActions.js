@@ -291,12 +291,9 @@ Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","mouseover",function(sy
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","click",function(sym,e){sym.$("OOGRNIK").hide();sym.$("OOGLTHIJS_2Copy").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_Play}","click",function(sym,e){sym.$("Play").hide();EC.Sound.play("Watwijzullen")
-sym.$("Pauze").show();var audio=sym.$("_03_De_Huilende_Rappers_-_Wat_Wij_Zullen")[0];if(audio.paused){audio.play();}else{audio.pause();}});
+Symbol.bindElementAction(compId,symbolName,"${_Play}","click",function(sym,e){sym.$("Play").hide();sym.$("Pauze").show();var audio=sym.$("_03_De_Huilende_Rappers_-_Wat_Wij_Zullen")[0];if(audio.paused){audio.play();}else{audio.pause();}});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_Pauze}","click",function(sym,e){sym.$("Pauze").hide();sym.$("Play").show();var audio=sym.$("_03_De_Huilende_Rappers_-_Wat_Wij_Zullen")[0];if(audio.paused){audio.play();}else{audio.pause();}});
-//Edge binding end
-Symbol.bindSymbolAction(compId,symbolName,"creationComplete",function(sym,e){yepnope({load:"http://cdn.edgecommons.org/an/1.0.2/js/min/EdgeCommons.js",complete:function(){EC.debug("ready to go!");var assetsPath="Sounds/";EC.Sound.setup([{src:assetsPath+"Watwijzullen.mp3",id:"Watwijzullen"}],function(){EC.info("Sound setup finished","sounds");});}});});
 //Edge binding end
 })("stage");
 //Edge symbol end:'stage'
