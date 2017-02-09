@@ -3,29 +3,29 @@
 //Edge symbol: 'stage'
 (function(symbolName){Symbol.bindTriggerAction(compId,symbolName,"Default Timeline",0,function(sym,e){sym.$("Neusnik_2").hide();sym.$("NEUSMARTIJN").hide();sym.$("MONDMARTIJN_2").hide();sym.$("MONDNIK_2").hide();sym.$("OOGLMARTIJN_2").hide();sym.$("OOGLNIK_2").hide();sym.$("OOGRMARTIJN_2").hide();sym.$("OOGRNIK").hide();sym.$("MONDNIK").hide();sym.$("MONDTHIJS").hide();sym.$("Neusnik").hide();sym.$("NEUSTHIJS").hide();sym.$("KAPSELTHIJS2").hide();sym.$("KAPSELNIK_2").hide();sym.$("oognik").hide();sym.$("OOGRTHIJS_2").hide();sym.$("OOGRNIK_2").hide();sym.$("OOGLNIK").hide();sym.$("OOGLTHIJS_2").hide();sym.$("OOGRNIK_2").hide();sym.$("KAPSELNIK2").hide();sym.$("kapselthijsframe").show();sym.$("NEUSTHIJS_2").hide();sym.$("NEUSMARTIJN_2").hide();sym.$("MONDTHIJS_2").hide();sym.$("MONDMARTIJN").hide();sym.$("KAPSELTHIJS_2").hide();sym.$("OOGLTHIJS").hide();sym.$("OOGRMARTIJN").hide();sym.$("OOGRTHIJS").hide();sym.$("OOGLMARTIJN").hide();sym.$("neusnik").hide();sym.$("haarnik").hide();sym.$("haarnik").hide();sym.$("Neusmartijn").hide();sym.$("Haarmartijn").hide();sym.$("Mondmartijn").hide();sym.$("Oogmartijn").hide();sym.$("OOGRNIK_2DOOD").hide();sym.$("OOGLNIKDOOD").hide();sym.$("Neusthijs").hide();sym.$("Haarthijs").hide();sym.$("Pauze").hide();sym.$("Mondthijs").hide();sym.$("Oogthijs").hide();sym.$("Mondnik").hide();sym.$("OOGLNIK_2DOOD").hide();sym.$("OOGRNIKdood").hide();sym.$("geenhaarmartijn").hide();sym.$("BG").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_NEUSTHIJS_3}","click",function(sym,e){sym.$("NEUSTHIJS_3").hide();sym.$("Neusnik_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_NEUSTHIJS_3}","click",function(sym,e){sym.$("NEUSTHIJS_3").hide();sym.$("Neusnik_2").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_Neusnik_2}","click",function(sym,e){sym.$("Neusnik_2").hide();sym.$("NEUSMARTIJN").show();});
+Symbol.bindElementAction(compId,symbolName,"${_Neusnik_2}","click",function(sym,e){sym.$("Neusnik_2").hide();sym.$("NEUSMARTIJN").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_NEUSMARTIJN}","click",function(sym,e){sym.$("NEUSMARTIJN").hide();sym.$("NEUSTHIJS_3").show();});
+Symbol.bindElementAction(compId,symbolName,"${_NEUSMARTIJN}","click",function(sym,e){sym.$("NEUSMARTIJN").hide();sym.$("NEUSTHIJS_3").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_MONDMARTIJN_2}","click",function(sym,e){sym.$("MONDMARTIJN_2").hide();sym.$("MONDNIK_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_MONDMARTIJN_2}","click",function(sym,e){sym.$("MONDMARTIJN_2").hide();sym.$("MONDNIK_2").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_MONDNIK_2}","click",function(sym,e){sym.$("MONDNIK_2").hide();sym.$("MONDTHIJS_2Copy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_MONDNIK_2}","click",function(sym,e){sym.$("MONDNIK_2").hide();sym.$("MONDTHIJS_2Copy").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_MONDTHIJS_2Copy}","click",function(sym,e){sym.$("MONDTHIJS_2Copy").hide();sym.$("MONDMARTIJN_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_MONDTHIJS_2Copy}","click",function(sym,e){sym.$("MONDTHIJS_2Copy").hide();sym.$("MONDMARTIJN_2").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGRTHIJSCopy}","click",function(sym,e){sym.$("OOGRTHIJSCopy").hide();sym.$("OOGLMARTIJN_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGRTHIJSCopy}","click",function(sym,e){sym.$("OOGRTHIJSCopy").hide();sym.$("OOGLMARTIJN_2").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGLMARTIJN_2}","click",function(sym,e){sym.$("OOGLMARTIJN_2").hide();sym.$("OOGLNIK_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGLMARTIJN_2}","click",function(sym,e){sym.$("OOGLMARTIJN_2").hide();sym.$("OOGLNIK_2").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK_2DOOD}","click",function(sym,e){sym.$("OOGLNIK_2").hide();sym.$("OOGRTHIJSCopy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK_2DOOD}","click",function(sym,e){sym.$("OOGLNIK_2").hide();sym.$("OOGRTHIJSCopy").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGLTHIJS_2Copy}","click",function(sym,e){sym.$("OOGLTHIJS_2Copy").hide();sym.$("OOGRMARTIJN_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGLTHIJS_2Copy}","click",function(sym,e){sym.$("OOGLTHIJS_2Copy").hide();sym.$("OOGRMARTIJN_2").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGRMARTIJN_2}","click",function(sym,e){sym.$("OOGRMARTIJN_2").hide();sym.$("OOGRNIK").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGRMARTIJN_2}","click",function(sym,e){sym.$("OOGRMARTIJN_2").hide();sym.$("OOGRNIK").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGRNIKdood}","click",function(sym,e){sym.$("OOGRNIK").hide();sym.$("OOGLTHIJS_2Copy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGRNIKdood}","click",function(sym,e){sym.$("OOGRNIK").hide();sym.$("OOGLTHIJS_2Copy").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_Kapselnik_frame}","click",function(sym,e){sym.$("KAPSELNIK2").hide();sym.$("kapselthijsframe").show();});
 //Edge binding end
@@ -33,13 +33,13 @@ Symbol.bindElementAction(compId,symbolName,"${_kapselthijsframe}","click",functi
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_MONDMARTIJNCopy}","click",function(sym,e){sym.$("MONDMARTIJNCopy").hide();sym.$("MONDNIK").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_MONDNIK}","click",function(sym,e){sym.$("MONDNIK").hide();sym.$("MONDTHIJS").show();});
+Symbol.bindElementAction(compId,symbolName,"${_MONDNIK}","click",function(sym,e){sym.$("MONDNIK").hide();sym.$("MONDTHIJS").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_MONDTHIJS}","click",function(sym,e){sym.$("MONDTHIJS").hide();sym.$("MONDMARTIJNCopy").show();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_NEUSMARTIJN_2Copy}","click",function(sym,e){sym.$("NEUSMARTIJN_2Copy").hide();sym.$("Neusnik").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_Neusnik}","click",function(sym,e){sym.$("Neusnik").hide();sym.$("NEUSTHIJS").show();});
+Symbol.bindElementAction(compId,symbolName,"${_Neusnik}","click",function(sym,e){sym.$("Neusnik").hide();sym.$("NEUSTHIJS").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_NEUSTHIJS}","click",function(sym,e){sym.$("NEUSTHIJS").hide();sym.$("NEUSMARTIJN_2Copy").show();});
 //Edge binding end
@@ -65,13 +65,13 @@ Symbol.bindElementAction(compId,symbolName,"${_OOGLTHIJS_2}","click",function(sy
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2DOOD}","click",function(sym,e){sym.$("OOGRNIK_2").hide();sym.$("OOGRMARTIJNCopy").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_NeusnikCopy}","click",function(sym,e){sym.$("NeusnikCopy").hide();sym.$("NEUSTHIJS_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_NeusnikCopy}","click",function(sym,e){sym.$("NeusnikCopy").hide();sym.$("NEUSTHIJS_2").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_NEUSTHIJS_2}","click",function(sym,e){sym.$("NEUSTHIJS_2").hide();sym.$("NEUSMARTIJN_2").show();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_NEUSMARTIJN_2}","click",function(sym,e){sym.$("NEUSMARTIJN_2").hide();sym.$("NeusnikCopy").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_MONDNIKCopy}","click",function(sym,e){sym.$("MONDNIKCopy").hide();sym.$("MONDTHIJS_2").show();});
+Symbol.bindElementAction(compId,symbolName,"${_MONDNIKCopy}","click",function(sym,e){sym.$("MONDNIKCopy").hide();sym.$("MONDTHIJS_2").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_MONDTHIJS_2}","click",function(sym,e){sym.$("MONDTHIJS_2").hide();sym.$("MONDMARTIJN").show();});
 //Edge binding end
@@ -81,9 +81,9 @@ Symbol.bindElementAction(compId,symbolName,"${_Kapselnik_frameCopy}","click",fun
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_KAPSELTHIJS_2}","click",function(sym,e){sym.$("KAPSELTHIJS_2").hide();sym.$("Kapselnik_frameCopy").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2Copy}","click",function(sym,e){sym.$("OOGRNIK_2Copy").hide();sym.$("OOGLTHIJS").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2Copy}","click",function(sym,e){sym.$("OOGRNIK_2Copy").hide();sym.$("OOGLTHIJS").show();sym.$("Klik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGLNIKCopy}","click",function(sym,e){sym.$("OOGLNIKCopy").hide();sym.$("OOGRTHIJS").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGLNIKCopy}","click",function(sym,e){sym.$("OOGLNIKCopy").hide();sym.$("OOGRTHIJS").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGLTHIJS}","click",function(sym,e){sym.$("OOGLTHIJS").hide();sym.$("OOGRMARTIJN").show();});
 //Edge binding end
@@ -207,7 +207,7 @@ Symbol.bindElementAction(compId,symbolName,"${_NEUSMARTIJN}","mouseover",functio
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_MONDNIK_2}","mouseout",function(sym,e){sym.$("Mondnik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_MONDNIK_2}","mouseover",function(sym,e){sym.$("Mondnik").show();});
+Symbol.bindElementAction(compId,symbolName,"${_MONDNIK_2}","mouseover",function(sym,e){sym.$("Mondnik").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_MONDNIK}","mouseout",function(sym,e){sym.$("Mondnik").hide();});
 //Edge binding end
@@ -271,25 +271,25 @@ Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2}","mouseover",function(
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2}","mouseout",function(sym,e){sym.$("oognik").hide();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2}","click",function(sym,e){sym.$("OOGRNIK_2").hide();sym.$("OOGRMARTIJNCopy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK_2}","click",function(sym,e){sym.$("OOGRNIK_2").hide();sym.$("OOGRMARTIJNCopy").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK}","mouseout",function(sym,e){sym.$("oognik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK}","mouseover",function(sym,e){sym.$("oognik").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK}","click",function(sym,e){sym.$("OOGLNIK").hide();sym.$("OOGLMARTIJNCopy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK}","click",function(sym,e){sym.$("OOGLNIK").hide();sym.$("OOGLMARTIJNCopy").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK_2}","mouseout",function(sym,e){sym.$("oognik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK_2}","mouseover",function(sym,e){sym.$("oognik").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK_2}","click",function(sym,e){sym.$("OOGLNIK_2").hide();sym.$("OOGRTHIJSCopy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGLNIK_2}","click",function(sym,e){sym.$("OOGLNIK_2").hide();sym.$("OOGRTHIJSCopy").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","mouseout",function(sym,e){sym.$("oognik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","mouseover",function(sym,e){sym.$("oognik").show();});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","click",function(sym,e){sym.$("OOGRNIK").hide();sym.$("OOGLTHIJS_2Copy").show();});
+Symbol.bindElementAction(compId,symbolName,"${_OOGRNIK}","click",function(sym,e){sym.$("OOGRNIK").hide();sym.$("OOGLTHIJS_2Copy").show();sym.$("Klik").hide();});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_Play}","click",function(sym,e){sym.$("Play").hide();sym.$("Pauze").show();var audio=sym.$("_03_De_Huilende_Rappers_-_Wat_Wij_Zullen")[0];if(audio.paused){audio.play();}else{audio.pause();}});
 //Edge binding end
